@@ -12,5 +12,8 @@ def divide(a, b):
         raise ValueError("Division by zero!")
     return a / b
 
+def power(a, b):
+    return a ** b
+
 if __name__ == "__main__":
     print("Hello CI/CD!")
