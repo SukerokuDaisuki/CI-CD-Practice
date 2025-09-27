@@ -1,0 +1,11 @@
+coverage:
+  status:
+    project:
+      default:
+        target: auto    # 全体カバレッジの目標
+    patch:
+      default:
+        target: 80%     # PRで追加された行の最低カバレッジ
+comment:
+  layout: "reach, diff, files"
+  behavior: default
